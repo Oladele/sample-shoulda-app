@@ -38,3 +38,7 @@ group :development do
   gem 'spring'
 end
 
+#app-specific gems
+group :test do
+  gem 'shoulda-matchers', '~> 3.0'
+end
